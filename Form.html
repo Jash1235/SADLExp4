@@ -1,0 +1,99 @@
+<html>
+<head>
+<title> Form </title>
+</head>
+<table border=1>
+<body>
+<center>
+<img src="logo.jpg" width=150 height=150 hspace=300 align=center>
+</center>
+<h2><center>St. Francis Institute Of Technology </center></h2>
+<h3><center>Mount Poinsur, Borivali(W), Mumbai-400101</center></h3>
+<h3><pre><center><bold>Phone No. 022-28908585 , 022-28908787 Email:sfedu@sfit.ac.in
+Website:</bold>www.sfit.ac.in</center></pre></h3>
+</body>
+<hr>
+
+<body style= "background-color:rgb(238, 231, 135)">
+<h3><bold>Admission Enquiry Registration</bold></h3>
+<h4>General Instructions:</h4>
+<bold>1.College is a palce to study <br>2.Keep College clean</bold><br><br>
+<form action="/action_page.php">
+<b>Name:</b>
+<input type="text" id="fname" name="fname">
+<input type="text" id="mname" name="mname">
+<input type="text" id="lname" name="lname">
+<h3><pre> First Name Middle Name Last Name</pre></h3>
+<form action="/action_page.php">
+<label for="fname"><b>Address:</b></label>
+<input type="Em" id="Address" name="Address" style="width:500px"><br><br>
+
+<label for="city"><b>City:</b></label>
+
+<select name="city" id="city">
+<option></option>
+<option value="Mumbai">Mumbai</option>
+<option value="Panjim">Panjim</option>
+<option value="Surat">Surat</option>
+</select>
+
+<label for="State"><b>State:</b></label>
+<select name="State" id="State" >
+<option></option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+</select>
+<label for="Pincode"><b>Pincode:</b></label>
+<select name="Pincode" id="Pincode" >
+<option></option>
+<option value="400092">400092</option>
+<option value="400010">400010</option>
+<option value="400195">400195</option>
+</select>
+<br><br>
+<form action="/action_page.php">
+<label for="fname"><b>Email Id:</b></label>
+<input type="Em" id="Address" name="Address" style="width:200px">
+<form action="/action_page.php">
+<label for="fname"><b>Mobile No.:</b></label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+style="width:100px"><br><br>
+<form>
+<label for="fname"><b>Gender:</b></label>
+<input type="radio" id="male" name="gender"value="male">Male
+<input type="radio" id="female" name="gender" value="female">Female
+</form><br><br>
+
+<form action="/action_page.php">
+<label for="birthday"><b>Date Of Birth:</b></label>
+<input type="date" id="birthday" name="birthday">
+</form><br><br>
+
+<form>
+<label for="branch"><b>Choice Of Branch:</b></label>
+
+<input type="checkbox" id="branch1" name="branch1" value="CS">Computer Science
+<input type="checkbox" id="branch2" name="branch2" value="IT">Information Technology
+<input type="checkbox" id="branch3" name="branch3" value="Mech">Mechinical
+Engineering
+</form><br><br>
+
+<form action="/action_page.php">
+<label for="myfile"><b>Upload CET Score Card:</b></label>
+<input type="file" id="myfile"name="myfile"><br>
+</form><br><br>
+<form action="/action_page.php">
+<b>Choose Username:</b>
+<input type="text" id="fname" name="fname"><br><br>
+<form action="/action_page.php">
+<b>Enter Password:</b>
+<input type="password" id="pwd" name="pwd"><br><br>
+
+<form action="/action_page.php">
+<b>Retype Password:</b>
+<input type="password" id="pwd" name="pwd"><br><br>
+<input type="submit" value="Submit"><br><br>
+</form>
+</body>
+</html>
